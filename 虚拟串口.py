@@ -7,7 +7,7 @@ import select
 import time
 
 def mkpty():
-    # ╢Р©╙н╠жу╤к
+    # б╢ц╡б©б╙ц▌б╠ц√ц∙б╤ц▀
     master1, slave = pty.openpty()
     slaveName1 = os.ttyname(slave)
     print '\nslave device names: ', slaveName1
@@ -17,5 +17,5 @@ if __name__ == "__main__":
 
     mkpty()
     while True:
-        print "╢╝©з"
+        print "Д╦╡Е▐ё"
         time.sleep(5)
